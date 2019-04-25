@@ -1,0 +1,8 @@
+Docker Networks:
+
+
+Commands related to Docker Networks:
+   docker network ls
+   docker network create <network-name>
+   docker network create -d bridge/host/none <network-name>
+   
