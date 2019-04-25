@@ -1,0 +1,20 @@
+Docker Containers:
+   Running instances of Docker images.
+
+Commands related to Docker Containers:
+  docker ps
+  docker ps -a
+  docker ps -aq
+  docker run <image-name>
+  docker run -it <image-name>
+  docker run -itd <image-name>
+  docker run -itd -p 8080:8080 <image-name>
+  docker run -itd -p 8090:8080 --name "xxxx" <image-name>
+  docker container prune --all
+  docker inspect cid
+  docker start cid
+  docker stop cid
+  docker exec -it cid /bin/bash
+  docker attach cid
+  docker pause cid
+  docker unpause cid
